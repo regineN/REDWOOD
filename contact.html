@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">       
+	<title>Contact - REDWOOD</title>
+	<link rel="stylesheet" href="vendors/bootstrap/css/bootstrap.css">    
+	<link rel="stylesheet" href="css/style.css">
+  <script src="http://use.edgefonts.net/montserrat.js"></script>
+</head>
+<body>
+<nav class="navbar navbar-default navbar-fixed-top" role="navigation">  
+<div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      	<button type="button" class="navbar-toggle pull-left" data-toggle="collapse" data-target=".navbar-collapse">     
+        	<span class="sr-only">Toggle navigation</span>
+        	<span class="icon-bar"></span>  
+        	<span class="icon-bar"></span>                                             
+        	<span class="icon-bar"></span>  
+      	</button>
+    </div>
+<!-- Collect the nav links, forms, and other content for toggling -->    
+      	<div class="collapse navbar-collapse" id=".navbar-collapse">
+            <div class="menu">
+      		    <ul class="nav navbar-nav">
+           			<li><a href="index.html">HOME</a></li>  
+           			<li><a href="lifestyle.html">LIFESTYLE</a></li>
+           			<li><a href="travel.html">TRAVEL</a></li>
+           			<li><a href="aboutme.html">ABOUT ME</a></li>
+           			<li class="active"><a href="contact.html">CONTACT</a></li>    
+      			</ul>
+      		
+        
+<!-- Social media icons -->    
+        
+    		  <ul class="nav navbar-nav pull-right social-icons">
+    		    <li>
+    		    <a href="#"><img src="images/facebook.png" class="img-responsive" alt="Responsive image"></a>
+    		    </li>
+    		    <li>
+    		    <a href="#"><img src="images/twitter.png" class="img-responsive" alt="Responsive image"></a>
+    		    </li>
+    		    <li>
+    		    <a href="#"><img src="images/instagram.png" class="img-responsive" alt="Responsive image"></a>
+    		    </li>
+    		    <li>
+    		    <a href="#"><img src="images/google.png" class="img-responsive" alt="Responsive image"></a>
+    		    </li> 
+    		    <li>
+    		    <a href="#"><img src="images/flux.png" class="img-responsive" alt="Responsive image"></a>
+    		    </li> 
+    		    <li>
+    		    <a href="#"><img src="images/loupe.png" class="img-responsive" alt="Responsive image"></a>
+    		    </li>           
+      		</ul>
+        </div><!--- End Menu -->
+    </div>
+  </div>    
+</nav>  <!-- end navbar -->	
+
+<!--HEARDER-->
+<div class="header">
+<div class="container">
+  <div class="logo">
+  <h1>
+    <a href="#"><img src="images/redwood.png" class="img-responsive" alt="Responsive image"></a>
+  </h1>
+  </div>
+ </div>
+</div> <!-- End HEADER-->
+
+<hr>
+
+<!-- MAIN -->
+<div class="container">
+  <div class="main-blog">
+    <div class="row">
+      <div class="col-xs-12 col-sm-8 col-md-8">
+        <h2 class="block-title-main">Contact</h2>   
+          <div class="blog-image-two">
+          <img src="images/foret.jpg" class="img-responsive" alt="Responsive image">
+          </div>
+
+            <div class="blog-article">
+              <p>Lorem ipsum Duis nostrud deserunt non occaecat nulla tempor enim cillum sit enim pariatur do commodo commodo quis labore esse adipisicing ut reprehenderit do deserunt sint in anim. Lorem ipsum Consequat veniam dolor dolor veniam aliquip anim pariatur eu pariatur culpa dolore in officia est proident do Excepteur veniam ut sit aute in ullamco. Lorem ipsum Ad deserunt esse elit aute quis occaecat veniam reprehenderit exercitation Ut ea nulla tempor ea ex velit sed et anim eu id ut aliqua exercitation amet proident qui culpa laborum minim.
+              </p>
+            </div>
+
+            <div class="form-contact">
+              <form name="ContactForm" action="contactValidation.html" method="post">  
+                 <div>
+                    <label for="contact-name">Name<em class="required">(required)</em></label>
+                    <br>
+                    <input type="text" class="form-control" id="contact-name" name="name" onkeyup="validateName()">
+                    <span class="error-message" id="name-error"></span>  
+                 </div>
+
+                 <div>
+                    <label for="contact-email">Your Email<em class="required">(required)</em></label>
+                    <br>
+                    <input type="email" class="form-control" id="contact-email" name="name"  onkeyup="validateEmail()">
+                    <span class="error-message" id="email-error"></span>
+                 </div>
+
+                 <div>
+                    <label for="contact-subject">Subject</label>
+                    <br>
+                    <input type="subject" class="form-control" id="contact-subject" name="name" onkeyup="validateSubject()"/>
+                 </div>
+
+                 <div>
+                    <label for="text">Message</label>
+                    <br>
+                    <textarea class="form-control" rows="3" id="contatc-message" name="message"  onkeyup="validateMessage()"></textarea>
+                 </div>
+
+                 <button onclick=" return validateContactForm()" class="btn btn-default">Submit</button> 
+                 <span class="error-message" id="submit-error"></span>
+              </form>
+            </div>
+        </div>
+         
+
+        
+
+        <div class="col-sm-3 col-sm-offset-1 blog-sidebar"> 
+        <div class="sidebar-module sidebar-module-inset">
+          <h4 class="bloc-sidebar">ABOUT ME</h4>
+            <img src="images/about-2.jpg" class="img-responsive" alt="Responsive image">
+            <p class="title-sidebar">PHOTOGRAPHER & BLOGGER</p>
+            <p class="text-sidebar">Lorem ipsum Fugiat laborum ullamco incididunt ullamco commodo est utLorem</p>
+
+          <h4 class="bloc-sidebar">SUSCRIBE & FOLLOW</h4>
+          <div class="blog-social-icons">
+            <ul>
+              <li>
+              <a href="#"><img src="images/facebook.png" class="img-responsive" alt="Responsive image"></a>
+              </li>
+              <li>
+              <a href="#"><img src="images/twitter.png" class="img-responsive" alt="Responsive image"></a>
+              </li>
+              <li>
+              <a href="#"><img src="images/instagram.png" class="img-responsive" alt="Responsive image"></a>
+              </li>
+              <li>
+              <a href="#"><img src="images/google.png" class="img-responsive" alt="Responsive image"></a>
+              </li> 
+            </ul>
+          </div>
+
+          <div class="newsletter-sidebar">  
+            <form name="newsletter" action="emailvalidation.html" method="post">
+              <p>
+                <label>Subscribe to my Newsletter</label>  
+                <input type="email"  name="email" placeholder="Your email address" required>
+              </p>
+              <p>
+                <input type="submit" value="SUBSCRIBE" onclick="return newsletter()">
+              </p>
+            </form> 
+          </div>
+
+          <h4 class="bloc-sidebar">LATEST POSTS</h4>
+          <div class="posts-sidebar">
+              <div class="content-heading clearfix pull-left">
+                <a href="summersoireeinspiration.html"><img src="images/legsbar.jpg" class="img-responsive" alt="Responsive image" width="100px" height="77px"></a>
+              </div>
+                <p>Summer Soiree Inspiration</p> 
+          </div>
+          <hr class="horizontale-sidebar">
+
+          <div class="posts-sidebar-two">
+              <div class="content-heading clearfix pull-left">
+                <a href="fashioninthecountry.html"><img src="images/country.jpg" class="img-responsive" alt="Responsive image" width="100px" height="77px"></a>
+              </div>
+                <p>Fashion in the Country</p> 
+          </div>
+          <hr class="horizontale-sidebar">
+
+          <div class="posts-sidebar-three">
+              <div class="content-heading clearfix pull-left">
+                <a href="bridalphotography.html"><img src="images/dos.jpg" class="img-responsive" alt="Responsive image" width="100px" height="77px"></a>
+              </div>
+                <p>Bridal Photography</p>  
+          </div>
+        </div>
+      </div> 
+    </div>
+  </div>
+</div>
+
+
+<div class="footer">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12">
+        <div class="blog-footer">
+          <ul>
+          <a href="#"><li>Facebook</li></a>
+          <a href="#"><li>Twitter</li></a>
+          <a href="#"><li>Instagram</li></a>
+          <a href="#"><li>Pinterest</li></a>
+          <a href="#"><li>Google+</li></a>  
+          </ul>
+        </div>
+
+         <hr>
+
+        <div class="copyright-footer"> 
+           <p class="horizontal-footer">&copy; 2015 - REDWOOD.</p>  
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+<script src="vendors/jquery/jquery-1.11.2.js"></script>
+<script src="vendors/bootstrap/js/bootstrap.js"></script>
+<script src="scripts/main.js"></script>
+<script src="scripts/script.js"></script>
+</body>
+</html>
+
